@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>My Photo Gallery</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="scripts/gallery.css" />
+<script type="text/javascript" src="scripts/gallery.js"></script>
+</head>
+<body>
+<center>
+<div id="links"></div>
+<div id="box">
+	<div id="mat">
+		<img id="pic">
+	</div>
+	<div id="cap"></div>
+	<img id="ctl" src="images/enlarge.png">
+</div>
+<img id="alb" src="images/album64a.png" title="Albums">
+<img id="shw" src="images/slides64a.png" title="Slide Show">
+<div id="pnl"></div>
+<img id="cmt" src="images/comments.png" title="AI点评">
+<p>&nbsp;</p>
+</center>
+<p style="position:absolute; right:10px; bottom:0px; font-family:arial; font-size:10pt; color:gray;">Move mouse cursor to the lower-left corner of the frame to show zoom icon</p>
+
+<div id="win" style="position:absolute; top:135px; left:50px; width:600px; height:480px; background-color:#ffffff; border:1px solid #0830a0; border-radius:7px; z-index:9999; box-shadow:1px 1px 6px #6060a0; overflow:hidden; display:none;">
+  <div style="position:absolute; top:0px; left:0px; width:100%; height:22px; background-color:#103388; color:ivory; font-size:10.5pt; font-family:simsun; text-align:center;padding-top:2px;">
+    摄影点评
+    <div id="xbtn" style="position:absolute; right:3px; top:3px; width:16px; height:16px; border-radius:8px; border-width:0px; background-image: radial-gradient(at 40% 40%, #ccffcc 1%, #88ff88 15%, green 70%); cursor:default;"></div>
+    <div id="page" style="position:absolute; left:20px; top:35px; width:570px; height:430px; padding-right:10px; font-family:simsun, 'times new roman'; line-height:18pt; color:#606060; border:0px red solid; text-align:justify; overflow:auto;"></div>
+  </div>
+</div>
+</body>
+</html>
