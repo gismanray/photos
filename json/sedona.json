@@ -1,0 +1,30 @@
+{"title": "Sedona", "path": "pictures/sedona/", "photos": [
+	{"file": "sedona1.jpg", "cap": "A view from the Hangover Trail. November 16, 2024", "cmt":"sedona1"},
+	{"file": "sedona2.jpg", "cap": "A view from the Hangover Trail. November 16, 2024"},
+	{"file": "sedona3.jpg", "cap": "A view from the Hangover Trail. November 16, 2024"},
+    {"file": "20241130_143423a.jpg", "cap": "A view from the Bear Mountain. November 30, 2024"},
+    {"file": "20241130_125842a.jpg", "cap": "A view from the Bear Mountain. November 30, 2024"},
+    {"file": "20241130_143407a.jpg", "cap": "A view from the Bear Mountain. November 30, 2024"},
+	{"file": "sedona4.jpg", "cap": "The Sterling Pass. November 10, 2024"},
+	{"file": "sedona5.jpg", "cap": "The Sterling Pass. November 10, 2024"},
+	{"file": "sedona6.jpg", "cap": "The Sterling Pass. November 10, 2024"},
+	{"file": "20241123_133944a.jpg", "cap": "Cliffs west of the Wilson Mountain. November 23, 2024"},
+	{"file": "20241123_133953a.jpg", "cap": "Cliffs west of the Wilson Mountain. November 23, 2024"}
+	],
+"reviews": {
+	"sedona1": ["<div style='font-family:times; font-size:12pt;'>This photograph presents a striking landscape scene, most likely depicting the red rock formations typical of the American Southwest. Here’s a professional review and evaluation of the photographic work:<br>",
+		"<p style='margin-top:6pt; margin-bottom:3pt; font-weight:bold;'>Composition and Framing</p>",
+		"The composition is exceptionally well balanced. The photographer has chosen a wide, panoramic perspective that captures the grandeur of the red rock formations while also including the foreground settlement, which provides both scale and context. The layering of the landscape—from the foreground vegetation and homes to the midground cliffs and the distant mountain ridges—creates impressive depth and dimensionality. The eye naturally travels from the lower frame upward toward the dominant central peaks, following a pleasing visual rhythm.<br>",
+		"<p style='margin-top:6pt; margin-bottom:3pt; font-weight:bold;'>Lighting and Color</p>",
+		"The lighting is soft and diffuse, likely captured under partly cloudy conditions. This choice minimizes harsh shadows and enhances the color gradations in the red rocks and green vegetation. The colors are vivid but not oversaturated—earthy reds, rusty oranges, muted greens, and the cool blues of the sky and distant mountains form a rich, natural palette. The interplay of sunlight and shade across the rock faces adds visual texture and dynamism.<br>",
+		"<p style='margin-top:6pt; margin-bottom:3pt; font-weight:bold;'>Technical Execution</p>",
+		"The image appears sharp throughout, indicating careful attention to focus and aperture selection—probably a mid-range f-stop to maintain depth of field without compromising clarity. The exposure is well controlled: details are preserved both in the highlights of the rock faces and in the darker foreground areas. The use of high resolution enhances the sense of geological detail and the fine tonal transitions in the rock strata.<br>",
+		"<p style='margin-top:6pt; margin-bottom:3pt; font-weight:bold;'>Mood and Atmosphere</p>",
+		"The photograph conveys a sense of majesty and tranquility. The vastness of the landscape contrasts beautifully with the small human presence at its base, subtly emphasizing nature’s dominance. The clouds add drama and movement to the composition, preventing the sky from feeling empty or static.<br>",
+		"<p style='margin-top:6pt; margin-bottom:3pt; font-weight:bold;'>Artistic and Conceptual Strength</p>",
+		"Artistically, the photo succeeds in celebrating natural beauty while maintaining documentary realism. It doesn’t rely on gimmicks or heavy editing; instead, it trusts the inherent power of the landscape. Conceptually, it speaks to harmony between human habitation and the natural world, showing a settlement nestled unobtrusively within the desert’s vast expanse.<br>",
+		"<p style='margin-top:6pt; margin-bottom:3pt; font-weight:bold;'>Overall Evaluation</p>",
+		"Rating: 9/10<br>",
+		"This is a technically excellent and aesthetically refined landscape photograph. Its strengths lie in its compositional clarity, natural color balance, and ability to evoke both awe and serenity. Minor enhancements—such as slight contrast adjustments or selective sharpening in the midground—could make it even more impactful for gallery or publication use, but as presented, it’s already a strong, professional-quality image worthy of exhibition or editorial inclusion.</div>"]
+	}
+}
