@@ -1,0 +1,10 @@
+	#frame { position: relative; top:0px; width:930px; height:626px; border:1px #666 solid; overflow:hidden; box-shadow:2px 2px 10px #808080; }
+	#photo { position: absolute; left:0px; top:0px; width: 930px; cursor:pointer; }
+	#photo:active { cursor: grabbing; }
+	#inset { position: absolute; left: 5px; top: 5px; width:230px; height:230px; border:2px #fff solid; border-radius:5px; overflow:hidden; display: none; }
+	#mugs  { position: absolute; width: 4650px; visibility: visible; }
+	#tag2  { position: absolute; left: 0px; bottom: 10px; width: 100%; font-family:kaiti, Kaiti SC, simsun; font-size:16pt; text-align:center; color:red; }
+	#tag1  { position: absolute; font-family: Kaiti, simsun; font-size:14pt; color:red; background-color:rgba(255, 255, 255, 0.5); padding:1pt; border-radius:3px; }
+	#icon  { position: absolute; left: 5px; bottom: 4px; width: 20px; }
+	#note  { position: absolute; left: 30px; bottom: 4px; font-family:simsun; font-size:11pt; color: #666; visibility: hidden; }
+	.face  { position: absolute; width: 25px; height: 25px; border: 1px red solid; }
