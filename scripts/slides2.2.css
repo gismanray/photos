@@ -1,0 +1,32 @@
+﻿body, .ui-page {background-image:url('../images/bluebar.png');}
+//a {font-family:'arial'; font-size:10pt; text-decoration:none; color:gray;}
+//a:hover {color:red;}
+.frame {position: relative; top:50px; width: 800px; height: 640px; background-color:white; border: 1px #808080 solid; border-radius:15px;}
+.box {position: absolute; left:50px; top:20px; width:700px; height:575px; border:0px green solid;}
+.title {position:absolute; left:0px; top:5px; width:700px; font-family:Arial; font-size:16pt; text-align:center;}
+.pic {position:relative; left:0px; top:40px; width:700px; border-style:solid; border-width:1px;}
+.cap {position:absolute; left:0px; top:373px; width:700px; padding:3px; font-family:arial; font-size:10pt; text-align:center; border:0px red solid;}
+.pause {position:absolute; left:320px; top:240px; width:60px; visibility:hidden;}
+.sett {position:absolute; left:5px; bottom:5px; width:220px; height:60px; border:0px red solid;}
+.conf {position:absolute; left:15px; bottom:5px; width:24px; visibility:hidden;}
+.prev {position:absolute; left:0px; top:50px; width:50px; height:500px; border:px gray solid;}
+.next {position:absolute; left:750px; top:50px; width:50px; height:500px; border:0px gray solid}
+.arrl {position:absolute; right:1px; top:210px; visibility:hidden;}
+.arrr {position:absolute; left:1px; top:210px; visibility:hidden;}
+.panl {position:absolute; left:50px; bottom:8px; width:175px; height:25px; visibility:hidden; border:0px gray solid; background-color:#ffffff;}
+.slow {position:absolute; left:2px; top:5px; font-size:8pt; cursor:pointer;}
+.fast {position:absolute; left:128px; top:5px; font-size:8pt; cursor:pointer;}
+.bar {position:absolute; left:25px; top:12px; width:100px; height:2px; background-color:#9F9F9F;}
+.dot {position:absolute; left:69px; top:7px; width:12px;}
+.resize {position:absolute; left:155px; top:4px; width:16px;}
+.cnt {position:absolute; right:25px; bottom:10px; width:50px; height:22px;}
+.blef {position:absolute; left:0px; top:1px; color:#808080; cursor:pointer;}
+.brgt {position:absolute; right:0px; top:1px; color:#808080; cursor:pointer;}
+.idx {position:absolute; left:2px; top:4px; width:46px; height:14px; text-align:center; font-family:Arial; font-size:10pt; color:#808080; text-align:center;}
+.prg {position:absolute; right:82px; bottom:8px; width:80px; height:18px; border:0px red solid; text-align:left;}
+.cir {position:relative; height:12px; width:12px; border-radius:6px; margin:2px; background-color:lavender; float:left; visibility:hidden;}
+.lnk {color:blue; cursor:pointer; margin: 3px; }
+.lnk:hover {color:red; }
+#alb {position:absolute; left:10px; top:10px; width:32px;}
+#shw {position:absolute; left:45px; top:10px; width:32px;}
+#pnl {position:absolute; left:10px; top:45px; width:160px; font-family:arial; font-size:11pt; background-color:#fdfdff; border:1px gray solid; border-radius:5px; padding:6px; user-select:none; display:none;}
