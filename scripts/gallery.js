@@ -33,12 +33,19 @@ function main() {
 	ctl.addEventListener("click", changeSize);
 	ctl.addEventListener("mouseout", function() { this.style.display='none' });
 	cmt.addEventListener("click", showReview);
+	
 	info.addEventListener("click", () => {
 		msg.style.display = "block";
 	});
 
 	xmsg.addEventListener("click", () => {
 		msg.style.display = "none";
+	});
+	xmsg.addEventListener("mouseover", () => {
+		this.style.color = "#ff0000";
+	});
+	xmsg.addEventListener("mouseout", () => {
+		this.style.color = "#808080";
 	});
 	
 	var album = getParameter("album");
