@@ -33,11 +33,11 @@ function main() {
 	ctl.addEventListener("click", changeSize);
 	ctl.addEventListener("mouseout", function() { this.style.display='none' });
 	cmt.addEventListener("click", showReview);
-	info.addEventListener("click" => {
+	info.addEventListener("click", () => {
 		msg.style.display = "block";
 	});
 
-	xmsg.addEventListener("click" => {
+	xmsg.addEventListener("click", () => {
 		msg.style.display = "none";
 	});
 	
