@@ -280,10 +280,8 @@ function resize() {
 	pic.style = "position:absolute; top:0px; left:0px; width:" + picw + "px";
 	cap.style = "position:absolute; left:" + (frmbrdr+white+5) + "px; bottom:" + (frmbrdr+white-22) + "px; font-family:arial; font-size:10pt; color:#888;";
 	//cmt.style = "position:absolute; left:" + (box.offsetLeft + frmwidth - 24) + "px; top:" + (box.offsetTop + frmheight+10) + "px; display:" + cmt.style.display;	// this overrides all the style settings
-	// cmt.style.left = (box.offsetLeft + frmwidth - 24) + "px";
-	// cmt.style.top = (box.offsetTop + frmheight + 10) + "px";
-	cmt.style.left = (box.offsetLeft + frmwidth + 10) + "px";
-	cmt.style.top = (box.offsetTop + 0) + "px";
+	cmt.style.left = (box.offsetLeft + frmwidth - 24) + "px";
+	cmt.style.top = (box.offsetTop + frmheight + 10) + "px";
 }
 
 function changeSize() {
