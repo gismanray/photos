@@ -6,7 +6,7 @@ var path = "";				// photo path
 var photos = null;			// photo collection
 var reviews = null;			// photo reviews
 var frmtlc, frmtrc, frmllc, frmlrc, frmtop, frmbot, frmlef, frmrig;
-var box, mat, pic, cap, ctl, alb, shw, pnl;
+var box, mat, pic, cap, ctl, alb, shw, pnl, info, msg, xmsg;
 var win = null, cmt = null;	// comment window, comment icon
 var olink = null;
 var cmtid = null;			// photo comment id
@@ -24,12 +24,22 @@ function main() {
 	pnl = document.getElementById('pnl');
 	shw = document.getElementById('shw');
   	win = document.getElementById('win');
+	msg = document.getElementById('msg');
+	xmsg = document.getElementById('xmsg');
+	info = document.getElementById('info');
 	win.style.left = ((window.innerWidth - 600) / 2) + "px";
 	
 	pic.addEventListener("load", resize);
 	ctl.addEventListener("click", changeSize);
 	ctl.addEventListener("mouseout", function() { this.style.display='none' });
 	cmt.addEventListener("click", showReview);
+	info.addEventListener("click" => () {
+		msg.style.display = "block";
+	}
+
+	xmsg.addEventListener("click" => () {
+		msg.style.display = "none";
+	}
 	
 	var album = getParameter("album");
 	if (album == null) {
