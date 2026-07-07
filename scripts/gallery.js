@@ -282,8 +282,8 @@ function resize() {
 	//cmt.style = "position:absolute; left:" + (box.offsetLeft + frmwidth - 24) + "px; top:" + (box.offsetTop + frmheight+10) + "px; display:" + cmt.style.display;	// this overrides all the style settings
 	// cmt.style.left = (box.offsetLeft + frmwidth - 24) + "px";
 	// cmt.style.top = (box.offsetTop + frmheight + 10) + "px";
-	cmt.style.left = (box.offsetLeft + frmwidth + 24) + "px";
-	cmt.style.top = (box.offsetTop + 10) + "px";
+	cmt.style.left = (box.offsetLeft + frmwidth + 10) + "px";
+	cmt.style.top = (box.offsetTop + 0) + "px";
 }
 
 function changeSize() {
