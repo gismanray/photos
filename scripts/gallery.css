@@ -25,6 +25,7 @@
 #alb { position:absolute; left:10px; top:10px; width:32px; }
 #shw { position:absolute; left:45px; top:11px; width:32px; }
 #ctl { position:absolute; bottom:65px; right:65px; width:16px; display:none; }
+#info { position:absolute; left:80px; top:10px; width:32px; }
 #cmt { position:absolute; width:24px; display:none; }
 #pnl { position: absolute; 
 	left: 10px; top:45px; 
