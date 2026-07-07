@@ -41,10 +41,10 @@ function main() {
 	xmsg.addEventListener("click", () => {
 		msg.style.display = "none";
 	});
-	xmsg.addEventListener("mouseover", () => {
+	xmsg.addEventListener("mouseover", (this) => {
 		this.style.color = "#ff0000";
 	});
-	xmsg.addEventListener("mouseout", () => {
+	xmsg.addEventListener("mouseout", (this) => {
 		this.style.color = "#808080";
 	});
 	
