@@ -162,7 +162,7 @@ function createMenu() {
 	});
 }
 
-function openAlbum(jsonfile, reload=false) {
+function openAlbum(jsonfile, reload=false) { alert("jsonfile="+jsonfile);
 	setCookie("album", jsonfile, 120);
 	jsonfile = "json/" + jsonfile + ".json";
 	readTextFile(jsonfile, function(text) {
