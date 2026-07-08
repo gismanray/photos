@@ -58,6 +58,7 @@ function main() {
 	} else {
 		alb.style.display = "none";
 		shw.style.display = "none";
+		info.style.display = "none";
 	}
 	
 	createMenu();
