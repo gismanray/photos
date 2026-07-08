@@ -36,6 +36,10 @@ function main() {
 	
 	info.addEventListener("click", () => {
 		msg.style.display = "block";
+	}).addEventListener("mouseover", (event) => {
+		event.currentTarget.src = "images/infob.png";
+	}).addEventListener("mouseout", (event) => {
+		event.currentTarget.src = "images/infoa.png";
 	});
 
 	xmsg.addEventListener("click", () => {
