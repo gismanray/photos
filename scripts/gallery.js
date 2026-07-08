@@ -6,14 +6,14 @@ var path = "";				// photo path
 var photos = null;			// photo collection
 var reviews = null;			// photo reviews
 var frmtlc, frmtrc, frmllc, frmlrc, frmtop, frmbot, frmlef, frmrig;
-var box, mat, pic, cap, ctl, alb, shw, pnl, info, msg, xmsg;
+var thumbs, box, mat, pic, cap, ctl, alb, shw, pnl, info, msg, xmsg;
 var win = null, cmt = null;	// comment window, comment icon
-var obtn = null;
+var othumb = null;
 var cmtid = null;			// photo comment id
 
 window.onload = main;
 function main() {
-	links = document.getElementById('links');
+	thumbs = document.getElementById('thumbs');
 	box = document.getElementById('box');
 	mat = document.getElementById('mat');
 	pic = document.getElementById('pic');
@@ -172,16 +172,16 @@ function openAlbum(jsonfile, reload=false) {
 		path = json.path; 
 		if (path.slice(-1) != "/") path += "/";
 		
-		var strlinks = "Photos ";
+		var strthumbs = "Photos ";
 		for (i=0; i<photos.length; i++) {
 			//console.log(photos[i].url);
-			//strlinks += '&nbsp;<span id="link' + i + '" class="lnk" onclick="showPhoto(this, ' +
+			//strthumbs += '&nbsp;<span id="link' + i + '" class="lnk" onclick="showPhoto(this, ' +
 			//			(i) + ')">' + ('0'+(i+1)).slice(-2) + '</span> |';
-			strlinks += '<div id="link' + i + '" class="btn" onclick="showPhoto(this, ' +
+			strthumbs += '<div id="thumb' + i + '" class="btn" onclick="showPhoto(this, ' +
 						(i) + ')">' + ('0'+(i+1)).slice(-2) + '</div>';
 		}
-		links.innerHTML = strlinks;
-		//obtn = null;
+		thumbs.innerHTML = strthumbs;
+		//othumb = null;
 		
 		if (reload) {
 			var index = getCookie("index");
@@ -189,9 +189,9 @@ function openAlbum(jsonfile, reload=false) {
 		} else {
 			var index = 0;
 		}
-		obtn = document.getElementById('link'+index);
+		othumb = document.getElementById('thumb'+index);
 		
-		showPhoto(obtn, index);  // display the first picture
+		showPhoto(othumb, index);  // display the first picture
 	});
 }
 
@@ -252,11 +252,11 @@ function showPhoto(me, index) {
 	pic.src = path + photos[index].file;
 	cap.innerHTML = photos[index].cap;
 
-	//obtn.classList.add("lnk");
-	obtn.style.color = "#000";
+	//olink.classList.add("lnk");
+	othumb.style.color = "#000";
 	//me.classList.remove("lnk");
 	me.style.color = "#f00";
-	obtn = me;
+	othumb = me;
 	setCookie("index", index, 5);
 
 	if (photos[index].cmt == undefined) {
