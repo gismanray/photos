@@ -177,7 +177,7 @@ function openAlbum(jsonfile, reload=false) {
 			//console.log(photos[i].url);
 			//strthumbs += '&nbsp;<span id="link' + i + '" class="lnk" onclick="showPhoto(this, ' +
 			//			(i) + ')">' + ('0'+(i+1)).slice(-2) + '</span> |';
-			strthumbs += '<div id="thumb' + i + '" class="btn" onclick="showPhoto(this, ' +
+			strthumbs += '<div id="thumb' + i + '" class="thumb" onclick="showPhoto(this, ' +
 						(i) + ')">' + ('0'+(i+1)).slice(-2) + '</div>';
 		}
 		thumbs.innerHTML = strthumbs;
