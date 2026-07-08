@@ -34,6 +34,16 @@ function main() {
 	ctl.addEventListener("mouseout", function() { this.style.display='none' });
 	cmt.addEventListener("click", showReview);
 	
+	var album = getParameter("album");
+	if (album == null) {
+		album = getCookie("album");
+		if (album == "") album = "home";    // default album
+	} else {
+		alb.style.display = "none";
+		shw.style.display = "none";
+		info.style.display = "none";
+	}
+	
 	createMenu();
 	createFrame();	// create picture frame
 	openAlbum(album, reload=true);
@@ -99,16 +109,6 @@ function main() {
 	msg.addEventListener("mouseleave", (event) => {
 		event.currentTarget.style.display = "none";
 	});
-	
-	var album = getParameter("album");
-	if (album == null) {
-		album = getCookie("album");
-		if (album == "") album = "home";    // default album
-	} else {
-		alb.style.display = "none";
-		shw.style.display = "none";
-		info.style.display = "none";
-	}
 
 	let isDragging = false;
     let offsetX, offsetY;
@@ -162,7 +162,7 @@ function createMenu() {
 	});
 }
 
-function openAlbum(jsonfile, reload=false) { alert("jsonfile="+jsonfile);
+function openAlbum(jsonfile, reload=false) {
 	setCookie("album", jsonfile, 120);
 	jsonfile = "json/" + jsonfile + ".json";
 	readTextFile(jsonfile, function(text) {
