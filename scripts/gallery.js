@@ -39,14 +39,14 @@ function main() {
 		info.style.display = "none";
 	}
 	
+	createMenu();
+	createFrame();	// create picture frame
+	openAlbum(album, reload=true);
+	
 	pic.addEventListener("load", resize);
 	ctl.addEventListener("click", changeSize);
 	ctl.addEventListener("mouseout", function() { this.style.display='none' });
 	cmt.addEventListener("click", showReview);
-	
-	createMenu();
-	createFrame();	// create picture frame
-	openAlbum(album, reload=true);
 	
 	alb.addEventListener("click", function(e) {
 		if (pnl.style.display != "block") {
