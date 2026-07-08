@@ -38,6 +38,7 @@ function main() {
 		shw.style.display = "none";
 		info.style.display = "none";
 	}
+	alert("album="+album);
 	
 	pic.addEventListener("load", resize);
 	ctl.addEventListener("click", changeSize);
@@ -162,7 +163,7 @@ function createMenu() {
 	});
 }
 
-function openAlbum(jsonfile, reload=false) { alert("album="+jsonfile);
+function openAlbum(jsonfile, reload=false) { alert("jsonfile="+jsonfile);
 	setCookie("album", jsonfile, 120);
 	jsonfile = "json/" + jsonfile + ".json";
 	readTextFile(jsonfile, function(text) {
