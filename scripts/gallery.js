@@ -47,7 +47,7 @@ function main() {
 	xmsg.addEventListener("mouseout", (event) => {
 		event.currentTarget.style.color = "#808080";
 	});
-	msg.addEventListener("mouseout", (event) => {
+	msg.addEventListener("mouseleave", (event) => {
 		event.currentTarget.style.display = "none";
 	});
 	
