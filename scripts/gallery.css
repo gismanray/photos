@@ -27,7 +27,7 @@
 	border:1px solid gray; border-radius:3px; 
 	cursor:pointer; 
 }
-.thumb:hover { background-color: #eeffee; }
+.thumb:hover { background-color: #ddffdd; }
 .lnk { color: blue; cursor: pointer; }
 .lnk:hover { color: red; }
 .lnk.alb { margin: 3px; text-align: left; }
