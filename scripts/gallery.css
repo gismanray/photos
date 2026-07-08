@@ -22,10 +22,12 @@
 .thumb {
 	position:relative; width:20px; height:20px; 
 	margin:3px; display:inline-block; 
+	background-color: #fff;
 	font-size:10pt; line-height:16pt; text-align:center;
 	border:1px solid gray; border-radius:3px; 
 	cursor:pointer; 
 }
+.thumb:hover { background-color: #eeffee; }
 .lnk { color: blue; cursor: pointer; }
 .lnk:hover { color: red; }
 .lnk.alb { margin: 3px; text-align: left; }
