@@ -41,11 +41,14 @@ function main() {
 	xmsg.addEventListener("click", () => {
 		msg.style.display = "none";
 	});
-	xmsg.addEventListener("mouseover", () => {
-		xmsg.style.color = "#ff0000";
+	xmsg.addEventListener("mouseover", (event) => {
+		event.currentTarget.style.color = "#ff0000";
 	});
-	xmsg.addEventListener("mouseout", () => {
-		xmsg.style.color = "#808080";
+	xmsg.addEventListener("mouseout", (event) => {
+		event.currentTarget.style.color = "#808080";
+	});
+	msg.addEventListener("mouseout", (event) => {
+		event.currentTarget.style.display = "none";
 	});
 	
 	var album = getParameter("album");
