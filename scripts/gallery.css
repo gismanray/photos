@@ -19,7 +19,7 @@
 	border-right: 5px solid #dddddd;
 }
 .frm { position: absolute; }
-.btn {
+.thumb {
 	position:relative; width:20px; height:20px; 
 	margin:3px; display:inline-block; 
 	font-size:10pt; line-height:16pt; text-align:center;
