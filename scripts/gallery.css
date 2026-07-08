@@ -19,7 +19,10 @@
 	border-right: 5px solid #dddddd;
 }
 .frm { position: absolute; }
-.btn { position:relative; width:18px; height:18px; margin:2px; display:inline-block; border:1px solid gray; border-radius:3px; cursor:pointer; }
+.btn { position:relative; width:18px; height:18px; 
+	  margin:2px; display:inline-block; font-size:10pt;
+	  border:1px solid gray; border-radius:3px; 
+	  cursor:pointer; }
 .lnk { color: blue; cursor: pointer; }
 .lnk:hover { color: red; }
 .lnk.alb { margin: 3px; text-align: left; }
