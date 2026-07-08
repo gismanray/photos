@@ -34,39 +34,6 @@ function main() {
 	ctl.addEventListener("mouseout", function() { this.style.display='none' });
 	cmt.addEventListener("click", showReview);
 	
-	info.addEventListener("click", () => {
-		msg.style.display = "block";
-	});
-	info.addEventListener("mouseover", (event) => {
-		event.currentTarget.src = "images/infob.png";
-	});
-	info.addEventListener("mouseout", (event) => {
-		event.currentTarget.src = "images/infoa.png";
-	});
-
-	xmsg.addEventListener("click", () => {
-		msg.style.display = "none";
-	});
-	xmsg.addEventListener("mouseover", (event) => {
-		event.currentTarget.style.color = "#ff0000";
-	});
-	xmsg.addEventListener("mouseout", (event) => {
-		event.currentTarget.style.color = "#808080";
-	});
-	msg.addEventListener("mouseleave", (event) => {
-		event.currentTarget.style.display = "none";
-	});
-	
-	var album = getParameter("album");
-	if (album == null) {
-		album = getCookie("album");
-		if (album == "") album = "home";    // default album
-	} else {
-		alb.style.display = "none";
-		shw.style.display = "none";
-		info.style.display = "none";
-	}
-	
 	createMenu();
 	createFrame();	// create picture frame
 	openAlbum(album, reload=true);
@@ -110,8 +77,41 @@ function main() {
 			pnl.style.display = "block";
 		});
 	}
+	
+	info.addEventListener("click", () => {
+		msg.style.display = "block";
+	});
+	info.addEventListener("mouseover", (event) => {
+		event.currentTarget.src = "images/infob.png";
+	});
+	info.addEventListener("mouseout", (event) => {
+		event.currentTarget.src = "images/infoa.png";
+	});
 
-    let isDragging = false;
+	xmsg.addEventListener("click", () => {
+		msg.style.display = "none";
+	});
+	xmsg.addEventListener("mouseover", (event) => {
+		event.currentTarget.style.color = "#ff0000";
+	});
+	xmsg.addEventListener("mouseout", (event) => {
+		event.currentTarget.style.color = "#808080";
+	});
+	msg.addEventListener("mouseleave", (event) => {
+		event.currentTarget.style.display = "none";
+	});
+	
+	var album = getParameter("album");
+	if (album == null) {
+		album = getCookie("album");
+		if (album == "") album = "home";    // default album
+	} else {
+		alb.style.display = "none";
+		shw.style.display = "none";
+		info.style.display = "none";
+	}
+
+	let isDragging = false;
     let offsetX, offsetY;
     win.addEventListener('mousedown', (e) => {
         isDragging = true;
@@ -176,8 +176,10 @@ function openAlbum(jsonfile, reload=false) {
 		var strlinks = "Photos ";
 		for (i=0; i<photos.length; i++) {
 			//console.log(photos[i].url);
-			strlinks += '&nbsp;<span id="link' + i + '" class="lnk" onclick="showPhoto(this, ' +
-						(i) + ')">' + ('0'+(i+1)).slice(-2) + '</span> |';
+			//strlinks += '&nbsp;<span id="link' + i + '" class="lnk" onclick="showPhoto(this, ' +
+			//			(i) + ')">' + ('0'+(i+1)).slice(-2) + '</span> |';
+			strlinks += '<div id="link' + i + '" class="btn" onclick="showPhoto(this, ' +
+						(i) + ')">' + ('0'+(i+1)).slice(-2) + '</div>';
 		}
 		links.innerHTML = strlinks;
 		//olink = null;
