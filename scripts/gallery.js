@@ -29,11 +29,6 @@ function main() {
 	info = document.getElementById('info');
 	win.style.left = ((window.innerWidth - 600) / 2) + "px";
 	
-	pic.addEventListener("load", resize);
-	ctl.addEventListener("click", changeSize);
-	ctl.addEventListener("mouseout", function() { this.style.display='none' });
-	cmt.addEventListener("click", showReview);
-	
 	var album = getParameter("album");
 	if (album == null) {
 		album = getCookie("album");
@@ -43,6 +38,11 @@ function main() {
 		shw.style.display = "none";
 		info.style.display = "none";
 	}
+	
+	pic.addEventListener("load", resize);
+	ctl.addEventListener("click", changeSize);
+	ctl.addEventListener("mouseout", function() { this.style.display='none' });
+	cmt.addEventListener("click", showReview);
 	
 	createMenu();
 	createFrame();	// create picture frame
