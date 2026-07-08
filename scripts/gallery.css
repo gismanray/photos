@@ -22,6 +22,7 @@
 .lnk { color: blue; cursor: pointer; }
 .lnk:hover { color: red; }
 .lnk.alb { margin: 3px; text-align: left; }
+.btn { position:relative; width:18px; height:18px; border:1px solid gray; border-radius:3px; cursor:pointer; }
 #alb { position:absolute; left:10px; top:10px; width:32px; }
 #shw { position:absolute; left:45px; top:11px; width:32px; }
 #info { position:absolute; left:82px; top:14px; width:24px; }
