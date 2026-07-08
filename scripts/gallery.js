@@ -8,7 +8,7 @@ var reviews = null;			// photo reviews
 var frmtlc, frmtrc, frmllc, frmlrc, frmtop, frmbot, frmlef, frmrig;
 var box, mat, pic, cap, ctl, alb, shw, pnl, info, msg, xmsg;
 var win = null, cmt = null;	// comment window, comment icon
-var olink = null;
+var obtn = null;
 var cmtid = null;			// photo comment id
 
 window.onload = main;
@@ -181,7 +181,7 @@ function openAlbum(jsonfile, reload=false) {
 						(i) + ')">' + ('0'+(i+1)).slice(-2) + '</div>';
 		}
 		links.innerHTML = strlinks;
-		//olink = null;
+		//obtn = null;
 		
 		if (reload) {
 			var index = getCookie("index");
@@ -189,9 +189,9 @@ function openAlbum(jsonfile, reload=false) {
 		} else {
 			var index = 0;
 		}
-		olink = document.getElementById('link'+index);
+		obtn = document.getElementById('link'+index);
 		
-		showPhoto(olink, index);  // display the first picture
+		showPhoto(obtn, index);  // display the first picture
 	});
 }
 
@@ -252,11 +252,11 @@ function showPhoto(me, index) {
 	pic.src = path + photos[index].file;
 	cap.innerHTML = photos[index].cap;
 
-	olink.classList.add("lnk");
-	olink.style.color = "";
-	me.classList.remove("lnk");
+	//obtn.classList.add("lnk");
+	obtn.style.color = "#000";
+	//me.classList.remove("lnk");
 	me.style.color = "#f00";
-	olink = me;
+	obtn = me;
 	setCookie("index", index, 5);
 
 	if (photos[index].cmt == undefined) {
