@@ -175,10 +175,10 @@ function openAlbum(jsonfile, reload=false) {
 		var strlinks = "Photos ";
 		for (i=0; i<photos.length; i++) {
 			//console.log(photos[i].url);
-			strlinks += '&nbsp;<span id="link' + i + '" class="lnk" onclick="showPhoto(this, ' +
-						(i) + ')">' + ('0'+(i+1)).slice(-2) + '</span> |';
-			//strlinks += '<div id="link' + i + '" class="btn" onclick="showPhoto(this, ' +
-			//			(i) + ')">' + ('0'+(i+1)).slice(-2) + '</div>';
+			//strlinks += '&nbsp;<span id="link' + i + '" class="lnk" onclick="showPhoto(this, ' +
+			//			(i) + ')">' + ('0'+(i+1)).slice(-2) + '</span> |';
+			strlinks += '<div id="link' + i + '" class="btn" onclick="showPhoto(this, ' +
+						(i) + ')">' + ('0'+(i+1)).slice(-2) + '</div>';
 		}
 		links.innerHTML = strlinks;
 		//olink = null;
