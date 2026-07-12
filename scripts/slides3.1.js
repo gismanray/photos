@@ -211,6 +211,7 @@ function openAlbum(album, reload=false) {
 			index = 0;
 		}
 		changePicture();
+		stopSlides()
 		startSlides();
 	});
 }
