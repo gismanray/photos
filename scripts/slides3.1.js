@@ -63,20 +63,20 @@ $(document).ready(function(){
 		$(this).src = "images/infob.png";
 	}).on("mouseout", function() {
 		$(this).src = "images/infoa.png";
-	}).on("click"), function() {
+	}).on("click", function() {
 		$("#msg").css("display", "block");
 	});
 
 	$("xmsg").on("mouseover", function() {
-		$(this).css("color", "#ff0000";
+		$(this).css("color", "#ff0000");
 	}).on("mouseout", function() {
-		$(this).css("color", "#000000";
+		$(this).css("color", "#000000");
 	}).on("click", function() {
 		$("#msg").css("display", "none");
 	});
 
 	$("msg").on("mouseleave", function() {
-		$(this).css("display", "none";
+		$(this).css("display", "none");
 	});
 	
 	$("#pnl").on("mouseover", function() {
