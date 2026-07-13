@@ -1,18 +1,45 @@
-{"title": "Vancouver WA Summer 2026", "path": "pictures/vancouver/", "photos": [
-	{"file": "20260606_144437.jpg", "cap": "The Columbia River, June 6"},
-	{"file": "20260606_142528.jpg", "cap": "The Columbia River, June 6"},
-	{"file": "20260527_114531.jpg", "cap": "The Lucia Falls, May 27"},
-	{"file": "20260527_114923.jpg", "cap": "The Lucia Falls, May 27"},
-	{"file": "20260527_115159.jpg", "cap": "The Lucia Falls, May 27"},
-	{"file": "20260606_122711.jpg", "cap": "The Multnomah Falls, June 6"},
-	{"file": "20260606_131528.jpg", "cap": "The Latourell Falls, June 6"},
-	{"file": "20260606_132135.jpg", "cap": "The Latourell Falls, June 6"},
-	{"file": "20260612_140200.jpg", "cap": "The Beacon Rock, June 12"},
-	{"file": "20260611_070317.jpg", "cap": "The Battle Ground Lake, June 11"},
-    {"file": "20260705_113739.jpg", "cap": "Indian Beach, Ecola State Park, OR. July 5"},
-    {"file": "20260705_134242.jpg", "cap": "Crescent Beach & Cannon Beach, OR. July 5"},
-    {"file": "20260705_144023.jpg", "cap": "Cannon Beach, OR. July 5"},
-    {"file": "20260705_145210.jpg", "cap": "Cannon Beach, OR. July 5"},
-	{"file": "20260521_095544.jpg", "cap": "Noah's cottage hidden behind trees and flowers, May 21"},
-	{"file": "20260612_132802.jpg", "cap": "Western Columbine, June 12"}
-]}
+{"title": "Vancouver WA Summer 2026", "path": "pictures/vancouver/", 
+	"photos": [
+		{"file": "20260606_144437.jpg", "cap": "The Columbia River, June 6"},
+		{"file": "20260606_142528.jpg", "cap": "The Columbia River, June 6"},
+		{"file": "20260527_114531.jpg", "cap": "The Lucia Falls, May 27"},
+		{"file": "20260527_114923.jpg", "cap": "The Lucia Falls, May 27"},
+		{"file": "20260527_115159.jpg", "cap": "The Lucia Falls, May 27"},
+		{"file": "20260606_122711.jpg", "cap": "The Multnomah Falls, June 6"},
+		{"file": "20260606_131528.jpg", "cap": "The Latourell Falls, June 6"},
+		{"file": "20260606_132135.jpg", "cap": "The Latourell Falls, June 6"},
+		{"file": "20260612_140200.jpg", "cap": "The Beacon Rock, June 12"},
+		{"file": "20260611_070317.jpg", "cap": "The Battle Ground Lake, June 11"},
+	    {"file": "20260705_113739.jpg", "cap": "Indian Beach, Ecola State Park, OR. July 5"},
+	    {"file": "20260705_134242.jpg", "cap": "Crescent Beach & Cannon Beach, OR. July 5"},
+	    {"file": "20260705_144023.jpg", "cap": "Cannon Beach, OR. July 5"},
+	    {"file": "20260705_145210.jpg", "cap": "Cannon Beach, OR. July 5"},
+		{"file": "20260521_095544.jpg", "cap": "Noah's cottage hidden behind trees and flowers, May 21", "cmt":"cottage"},
+		{"file": "20260612_132802.jpg", "cap": "Western Columbine, June 12"}
+	],
+	"reviews": {
+		"cottage": [
+			"<h2>Photographic Review: Noah’s Cottage Hidden Behind Trees and Flowers</h2>",
+			"<p>Concise takeaway: This photograph succeeds as a quiet, atmospheric study of domestic seclusion, using natural framing, color harmony, and controlled depth to evoke a sense of refuge and nostalgia.</p>",
+			"<p><b>Overall Impression</b></p>",
+			"<p>The image presents a cottage enveloped by mature trees and blooming flora, creating an immediate impression of privacy and tranquility. The composition leans into the romantic tradition of portraying dwellings as extensions of the landscape—structures not imposed upon nature but gently absorbed by it. The result is a photograph that feels both intimate and observational, as though the viewer has stumbled upon a cherished place rather than been formally introduced to it.</p>",
+			"<p><b>Composition & Framing</b></p><ul>",
+			"<li><b>Natural framing:</b> The trees and flowering bush act as organic borders, guiding the eye inward toward the cottage. This technique softens the architectural lines and emphasizes the theme of concealment.</li>",
+			"<li><b>Foreground interest:</b> The large purple-flowering bush on the left provides a strong visual anchor. Its density contrasts with the more delicate foliage around the cottage, adding depth and preventing the scene from feeling flat.</li>",
+			"<li><b>Balance:</b> The photograph achieves a pleasing asymmetry. The cottage sits slightly off-center, allowing the surrounding greenery to dominate without overwhelming the subject. This balance reinforces the idea that the cottage is part of a larger ecosystem rather than the sole focus.</li></ul>",
+			"<p><b>Color & Light</b></p><ul>",
+			"<li><b>Color palette:</b> The interplay of cool tones (the blue door, shaded greenery) with warm accents (sunlit patches, the reddish-brown frame) creates a harmonious palette. The purple blossoms introduce a vibrant counterpoint that enlivens the scene without disrupting its calmness.</li>",
+			"<li><b>Lighting:</b> Dappled light filtering through the trees adds texture and movement. The shadows are soft, suggesting either early morning or late afternoon—times associated with reflection and quietude. This lighting choice enhances the photograph’s contemplative mood.</li></ul>",
+			"<p><b>Subject & Atmosphere</b></p><ul>",
+			"<li><b>Emotional resonance:</b> The cottage’s partial concealment evokes themes of retreat, memory, and sanctuary. It feels lived-in yet untouched, inviting viewers to imagine the life within without revealing it.</li>",
+			"<li>Narrative suggestion:</b> The caption’s mention of “Noah’s cottage” adds a personal dimension. Even without knowing Noah, the name implies ownership, history, and affection. The photograph becomes not just a landscape but a portrait of a place with meaning.</li></ul>",
+			"<p><b>Presentation</b></p>",
+			"<p>The white mat and polished wooden frame complement the image’s aesthetic. The mat provides breathing room, allowing the viewer to settle into the scene, while the warm wood echoes the natural tones within the photograph. Together, they elevate the image from a simple snapshot to a curated piece suitable for display.</p>",
+			"<p><b>Critical Notes</b></p><ul>",
+			"<li>The scene’s beauty lies in its subtlety, but some viewers may find the cottage slightly too obscured, wishing for a clearer architectural focal point.</li>",
+			"<li>The abundance of foliage creates a lush atmosphere, though it risks making the composition feel busy if the viewer prefers more minimalistic landscapes.</li></ul>",
+			"<p><b>Final Assessment</b></p>",
+			"<p>This photograph is a thoughtful, well-balanced depiction of a hidden home nestled within nature. Its strengths lie in its atmospheric lighting, harmonious color palette, and the emotional suggestion of a private refuge. It would sit comfortably in a collection focused on domestic landscapes, rural nostalgia, or the interplay between human habitation and natural environments.</p>"		
+		]
+	}
+}
