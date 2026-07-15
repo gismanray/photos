@@ -11,13 +11,13 @@ p { margin-top:8pt; margin-bottom:8pt; }
 .idnt { margin-left: 2em; }
 </style>
 <script>
-function show(lang) {
+function show(pn, lang) {
 	if (lang == "ch") {
-		document.getElementById("cr01ch").style.display = "block";
-		document.getElementById("cr01en").style.display = "none";
+		document.getElementById("cr"+pn+"ch").style.display = "block";
+		document.getElementById("cr"+pn+"en").style.display = "none";
 	} else {
-		document.getElementById("cr01ch").style.display = "none";
-		document.getElementById("cr01en").style.display = "block";
+		document.getElementById("cr"+pn+"ch").style.display = "none";
+		document.getElementById("cr"+pn+"en").style.display = "block";
 	}
 }
 </script>
@@ -29,7 +29,7 @@ function show(lang) {
 <img src="pictures/orbeaches/20260705_134242.jpg">
 
 <div id="cr01ch" style="position:relative; width:800px; display:block;">
-<p onclick="show('en')" style="position:absolute; top:-5px; right:5px; color:blue; cursor:pointer;">[English]</p>
+<p onclick="show('01', 'en')" style="position:absolute; top:-5px; right:5px; color:blue; cursor:pointer;">[English]</p>
 <h2>整体概述</h2>
 <p>这幅摄影作品呈现出一片壮阔而宁静的海岸风光，在宏伟气势与平和氛围之间取得了出色的平衡。画面中，崎岖的海岸线、散布于海面的海蚀岩（Sea Stacks）、层层推进的海浪以及逐渐隐没于薄雾中的山脉，共同构建出一个富有层次感与空间深度的自然景观。</p>
 
@@ -131,7 +131,7 @@ function show(lang) {
 </div>
 
 <div id="cr01en" style="position:relative; width:800px; font-family:arial; font-size:11pt; display:none;">
-<p onclick="show('ch')" style="position:absolute; top:-5px; right:5px; color:blue; cursor:pointer;">[中文]</p>
+<p onclick="show('01', 'ch')" style="position:absolute; top:-5px; right:5px; color:blue; cursor:pointer;">[中文]</p>
 <h2 style="font-family:arial;">Overview</h2>
 <p>This photograph presents a sweeping coastal landscape that balances grandeur and tranquility with considerable success. The image depicts a rugged shoreline lined with sea stacks, rolling surf, and receding mountain ranges that fade into the atmospheric haze of the distance. The scene is visually compelling, drawing the viewer through multiple layers of depth while showcasing the dramatic interaction between land, ocean, and sky.</p>
 <p>The image succeeds particularly well as a scenic landscape photograph because it conveys both scale and serenity without relying on a single dominant subject. Instead, the composition invites the eye to travel through the frame, discovering successive visual elements from foreground waves to distant mountains.</p>
@@ -598,6 +598,69 @@ ________________________________________
 <p>第三张拥有第一张的简洁与主体性，同时保留了第二张的空间层次与现场感。前景岩石、海岸曲线、海蚀岩群和远山形成了非常稳定而完整的视觉结构。</p>
 <p>如果让我从三张里面挑一张放进个人作品集（Portfolio），我会毫不犹豫地选择第三张。它最接近专业风光摄影中常说的“既有景观叙事，又有形式美感”的理想状态。</p>
 
+<img src="pictures/Noahs_Cottage.jpg">
+
+<div id="cr04ch" style="position:relative; width:800px; font-family:simsun; font-size:12pt; display:block;">
+<p onclick="show('04', 'en')" style="position:relative; width:100%; text-align:right; color:blue; cursor:pointer;">[English]</p>
+
+<p><span style="font-family:simhei; font-size:14pt;">核心观点：</span> 这幅摄影作品以自然的框景、和谐的色彩与层次分明的景深，成功呈现了一种静谧、隐逸的居所氛围，唤起观者对避世与怀旧的情感联想。</p>
+<h2>整体印象</h2>
+<p>画面呈现了一座被成熟树木与盛开的花卉包围的小屋，第一眼便传递出私密与宁静的气息。作品延续了浪漫主义传统中“居所融入自然”的视觉理念——建筑不以强势姿态占据空间，而是温柔地被自然吸纳。观者仿佛不是被正式介绍到这座小屋，而是偶然发现了一个被珍视的地方。</p>
+<h2>构图与框景</h2>
+<ul>
+<li><span style="font-family:simhei; font-size:12pt;">自然框景：</span> 树木与花丛形成了天然的边界，引导视线向画面中心的小屋聚焦。这种处理弱化了建筑的硬朗线条，强化了“隐匿”的主题。</li>
+<li><span style="font-family:simhei; font-size:12pt;">前景元素：</span> 左侧大面积的紫色花丛成为视觉锚点，与周围更轻柔的绿植形成对比，增加了画面的层次感，使整体不至于平面化。</li>
+<li><span style="font-family:simhei; font-size:12pt;">视觉平衡：</span> 小屋略微偏离中心位置，使周围的绿意占据主导，却不至于压过主体。这种不对称的平衡让小屋显得更像自然生态的一部分，而非画面的唯一焦点。</li>
+</ul>
+<h2>色彩与光线</h2>
+<ul>
+<li><span style="font-family:simhei; font-size:12pt;">色彩搭配：</span> 冷色调（蓝色门、阴影中的绿植）与暖色调（阳光照亮的草地、木质画框）形成和谐的对比。紫色花朵作为跳色点缀，为画面增添活力而不破坏整体的静谧感。</li>
+<li><span style="font-family:simhei; font-size:12pt;">光线表现：</span> 穿透树叶的斑驳光影为画面增添了质感与动感。柔和的阴影暗示拍摄时间可能是清晨或傍晚——这些时段常与沉思、安宁联系在一起，进一步强化了作品的氛围。</li>
+</ul>
+<h2>主题与氛围</h2>
+<li><span style="font-family:simhei; font-size:12pt;">情感表达：</span> 小屋的半隐状态唤起了避世、记忆与庇护的主题。它看似有人居住，却又保持着未被打扰的静谧，邀请观者想象其中的生活，却不直接揭示。</li>
+<li><span style="font-family:simhei; font-size:12pt;">叙事暗示：</span> 标题中的“诺亚的小屋”赋予作品个人化的维度。即便观者不认识诺亚，这个名字也暗示着归属、历史与情感，使作品不仅是风景，更是一个有故事的地方。</li>
+<h2>呈现方式</h2>
+<p>白色卡纸与温润的木质画框相得益彰。卡纸提供了视觉缓冲，让观者更容易沉浸于画面；木框的暖色调与照片中的自然色彩呼应，使作品从普通照片提升为适合展陈的艺术品。</p>
+<h2>批评性观察</h2>
+<li>作品的魅力在于其含蓄，但部分观者可能希望看到更清晰的小屋主体，而不是如此深度的遮掩。</li>
+<li>植被的丰富性营造了浓郁的自然氛围，但对于偏好极简风景的观者而言，画面可能略显繁复。</li>
+<h2>最终评价</h2>
+<p>这是一幅细腻且平衡良好的摄影作品，呈现了自然怀抱中的隐居之所。其优势在于氛围光线、色彩和谐以及对私人空间的情感暗示。它非常适合收录于以乡村景观、怀旧主题或人居与自然关系为核心的摄影系列中。</p>
+</div>
+
+<div id="cr04en" style="position:relative; width:800px; font-family:arial; font-size:11pt; display:none;">
+<p onclick="show('04', 'ch')" style="position:relative; width:100%; text-align:right; color:blue; cursor:pointer;">[中文]</p>
+
+<p><span style="font-size:14pt; font-weight:bold;">Concise takeaway:</span> This photograph succeeds as a quiet, atmospheric study of domestic seclusion, using natural framing, color harmony, and controlled depth to evoke a sense of refuge and nostalgia.</p>
+<h2 style="font-family:arial">Overall Impression</h2>
+<p>The image presents a cottage enveloped by mature trees and blooming flora, creating an immediate impression of privacy and tranquility. The composition leans into the romantic tradition of portraying dwellings as extensions of the landscape—structures not imposed upon nature but gently absorbed by it. The result is a photograph that feels both intimate and observational, as though the viewer has stumbled upon a cherished place rather than been formally introduced to it.</p>
+<h2 style="font-family:arial">Composition & Framing</h2>
+<ul>
+<li><b>Natural framing:</b> The trees and flowering bush act as organic borders, guiding the eye inward toward the cottage. This technique softens the architectural lines and emphasizes the theme of concealment.</li>
+<li><b>Foreground interest:</b> The large purple-flowering bush on the left provides a strong visual anchor. Its density contrasts with the more delicate foliage around the cottage, adding depth and preventing the scene from feeling flat.</li>
+<li><b>Balance:</b> The photograph achieves a pleasing asymmetry. The cottage sits slightly off-center, allowing the surrounding greenery to dominate without overwhelming the subject. This balance reinforces the idea that the cottage is part of a larger ecosystem rather than the sole focus.</li>
+</ul>
+<h2 style="font-family:arial">Color & Light</h2>
+<ul>
+<li><b>Color palette:</b> The interplay of cool tones (the blue door, shaded greenery) with warm accents (sunlit patches, the reddish-brown frame) creates a harmonious palette. The purple blossoms introduce a vibrant counterpoint that enlivens the scene without disrupting its calmness.</li>
+<li><b>Lighting:</b> Dappled light filtering through the trees adds texture and movement. The shadows are soft, suggesting either early morning or late afternoon—times associated with reflection and quietude. This lighting choice enhances the photograph’s contemplative mood.</li>
+</ul>
+<h2 style="font-family:arial">Subject & Atmosphere</h2>
+<ul>
+<li><b>Emotional resonance:</b> The cottage’s partial concealment evokes themes of retreat, memory, and sanctuary. It feels lived-in yet untouched, inviting viewers to imagine the life within without revealing it.</li>
+<li><b>Narrative suggestion:</b> The caption’s mention of “Noah’s cottage” adds a personal dimension. Even without knowing Noah, the name implies ownership, history, and affection. The photograph becomes not just a landscape but a portrait of a place with meaning.</li>
+</ul>
+<h2 style="font-family:arial">Presentation</h2>
+<p>The white mat and polished wooden frame complement the image’s aesthetic. The mat provides breathing room, allowing the viewer to settle into the scene, while the warm wood echoes the natural tones within the photograph. Together, they elevate the image from a simple snapshot to a curated piece suitable for display.</p>
+<h2 style="font-family:arial">Critical Notes</h2>
+<ul>
+<li>The scene’s beauty lies in its subtlety, but some viewers may find the cottage slightly too obscured, wishing for a clearer architectural focal point.</li>
+<li>The abundance of foliage creates a lush atmosphere, though it risks making the composition feel busy if the viewer prefers more minimalistic landscapes.</li>
+</ul>
+<h2 style="font-family:arial">Final Assessment</h2>
+<p>This photograph is a thoughtful, well-balanced depiction of a hidden home nestled within nature. Its strengths lie in its atmospheric lighting, harmonious color palette, and the emotional suggestion of a private refuge. It would sit comfortably in a collection focused on domestic landscapes, rural nostalgia, or the interplay between human habitation and natural environments.</p>
+</div>
 
 </div>
 </center>
