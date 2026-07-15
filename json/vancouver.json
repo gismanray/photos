@@ -11,7 +11,7 @@
 		{"file": "20260612_140200.jpg", "cap": "The Beacon Rock, June 12"},
 		{"file": "20260611_070317.jpg", "cap": "The Battle Ground Lake, June 11"},
 	    {"file": "20260705_113739.jpg", "cap": "Indian Beach, Ecola State Park, OR. July 5"},
-	    {"file": "20260705_134242.jpg", "cap": "Crescent Beach & Cannon Beach, OR. July 5"},
+	    {"file": "20260705_134242.jpg", "cap": "Crescent Beach & Cannon Beach, OR. July 5", "cmt":"beach"},
 	    {"file": "20260705_144023.jpg", "cap": "Cannon Beach, OR. July 5"},
 	    {"file": "20260705_145210.jpg", "cap": "Cannon Beach, OR. July 5"},
 		{"file": "20260521_095544.jpg", "cap": "Noah's cottage hidden behind trees and flowers, May 21", "cmt":"cottage"},
@@ -133,6 +133,10 @@
 			"<li>The abundance of foliage creates a lush atmosphere, though it risks making the composition feel busy if the viewer prefers more minimalistic landscapes.</li></ul>",
 			"<p><b>Final Assessment</b></p>",
 			"<p>This photograph is a thoughtful, well-balanced depiction of a hidden home nestled within nature. Its strengths lie in its atmospheric lighting, harmonious color palette, and the emotional suggestion of a private refuge. It would sit comfortably in a collection focused on domestic landscapes, rural nostalgia, or the interplay between human habitation and natural environments.</p></div>"		
+		],
+		
+		"beach": [
+
 		]
 	}
 }
